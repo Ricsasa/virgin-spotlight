@@ -4,7 +4,7 @@
   "description": "Virgin Spotlight code challenge Edit",
   "main": "index.js",
   "scripts": {
-    "build": "compass compile ./public/",
+    "build": "compass compile ./public/ --output-style compressed",
     "test": "test",
     "start": "node index.js"
   },

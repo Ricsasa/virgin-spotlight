@@ -1,0 +1,83 @@
+@import 'config';
+
+.main {
+  box-shadow: $boxshadow_h_offset $boxshadow_v_offset $shadow_color;  
+}
+
+@media screen and (min-width: 40em) {
+  article {    
+    float: left;
+    margin: 20px;
+    width: $article-width;
+  }
+}
+
+a {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+.submit {
+  margin-right: $submit-margin;
+  font-size: 12px;
+  font-family: $submit-font;
+  line-height: 1.8rem;
+  color: #999
+}
+
+.shareSection {
+  margin-left: $submit-margin;
+}
+
+.dateSection {
+  margin-right: $submit-margin;
+}
+
+.date, .shares {
+  font-weight: bold;
+  margin-right: 3px;
+}
+
+.content {
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  height: 231px;
+  background-color: $hover-color;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+.sub {
+  background-color:  $subtitle-bg-color;
+  color: $hover-color;
+  display: inline-block; 
+  font-family: $sub-font;
+  font-size: 20px;
+  line-height: 30px;
+  min-width: 175px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-transform: uppercase;
+}
+
+h2 {
+  box-sizing: border-box;
+  color: $title-color;
+  display: block;
+  font-family: $title-font;
+  font-size: 26px;
+  font-weight: normal;
+  line-height: 30px;
+  margin-bottom: 15px;
+  margin-top: 5px;  
+  word-wrap: break-word;
+}
