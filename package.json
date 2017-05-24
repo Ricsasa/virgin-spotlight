@@ -1,0 +1,31 @@
+{
+  "name": "virgin-spotlight",
+  "version": "1.0.0",
+  "description": "Virgin Spotlight code challenge Edit",
+  "main": "index.js",
+  "scripts": {
+    "build": "compass compile ./public/",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ricsasa/virgin-spotlight.git"
+  },
+  "keywords": [
+    "codeChallenge",
+    "virginSpothlight"
+  ],
+  "author": "Ricardo Sanchez Saldivar",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Ricsasa/virgin-spotlight/issues"
+  },
+  "homepage": "https://github.com/Ricsasa/virgin-spotlight#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

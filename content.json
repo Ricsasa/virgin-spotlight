@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Voting is a right, but should it be a duty?",
+    "subtitle": "Richard",
+    "date": "26 april 2017",
+    "shares": "2.2k",
+    "image": "https://res.cloudinary.com/www-virgin-com/f_auto,fl_lossy,q_80/virgin-com-prod/sites/virgin.com/files/styles/article_search_result/public/Articles/Richard%20Branson/general/richard_thoughtful.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Three continents - one day!",
+    "subtitle": "Richard",
+    "date": "25 april 2017",
+    "shares": 94,
+    "image": "https://res.cloudinary.com/www-virgin-com/f_auto,fl_lossy,q_80/virgin-com-prod/sites/virgin.com/files/styles/article_search_result/public/richard_branson_sofia_romania_1.jpg"
+  },
+  {
+    "id": 3,
+    "title": "The Elders support Italy’s deep commitment to climate action",
+    "subtitle": "News",
+    "date": "25 april 2017",
+    "shares": "",
+    "image": "https://res.cloudinary.com/www-virgin-com/f_auto,fl_lossy,q_80/virgin-com-prod/sites/virgin.com/files/styles/article_search_result/public/gettyimages-454116517.jpg"
+  }
+]

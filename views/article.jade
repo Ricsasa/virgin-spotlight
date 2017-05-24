@@ -1,0 +1,18 @@
+div.article
+    article
+        a(href="/#{articleSpotlight.id}")
+            div.main
+                div.image
+                    img(src="#{articleSpotlight.image}")
+                div.content
+                    div.submit
+                        span.dateSection 
+                            span.date #{articleSpotlight.date}
+                        if(articleSpotlight.shares)
+                            span.sharesSeparator |
+                            span.shareSection
+                                span.shares #{articleSpotlight.shares} 
+                                span Shares
+                    h2 #{articleSpotlight.title}
+            div.sub
+                span.subtitle #{articleSpotlight.subtitle}
